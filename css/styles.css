@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
+    color: #434455;
 }
 
 a {
@@ -18,10 +19,11 @@ ul {
     line-height: 1.17;
     text-transform: uppercase;
     color: #4d5ae5;
+    letter-spacing: 0.02em;
 }
 
 .logo-std {
-    color: black;
+    color: #2e2f42;
 }
 
 .navlink {
@@ -31,13 +33,10 @@ ul {
     color: #2e2f42;
 } 
 
-.std-sp:active {
-    border-bottom: 2px solid #404BBF;
-}
 
 .navlink:hover,
 .navlink:focus {
-    color: #404bbf;
+color: #404bbf;
 }
 
 .contact {
@@ -52,10 +51,6 @@ ul {
 }
 
 .opening-sect {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color:#2E2F42;
 }
 
@@ -74,11 +69,11 @@ ul {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
-    border: none;
-    border-radius: 4px;
+    letter-spacing: 0.04em;
 }
 
-.opening-sect-btn:hover {
+.opening-sect-btn:hover,
+.opening-sect-btn:focus {
     background-color: #404bbf;
 }
 
@@ -129,4 +124,5 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
