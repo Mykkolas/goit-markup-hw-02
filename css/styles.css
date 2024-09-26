@@ -35,8 +35,8 @@ ul {
 } 
 
 
-.std-sp:hover,
-.std-sp:active {
+.navlink:hover,
+.navlink:focus {
     color: #404bbf;
 }
 
