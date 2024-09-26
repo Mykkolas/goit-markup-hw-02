@@ -52,6 +52,11 @@ ul {
     color: #434455;
 }
 
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
 .opening-sect {
     background-color:#2E2F42;
 }
